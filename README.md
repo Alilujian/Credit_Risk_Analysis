@@ -14,21 +14,45 @@ At the end, we will evaluate the performance of different models and to determin
 ### Naive Random Oversampling
 The balanced accuracy score for this model is 0.674. From the classification report, the precision for high risk is pretty low (0.01) with a sensitivity of 0.74. The F1 score is 0.02 for the high risk. The overall precision for the dataset is 0.99, with a sensitivity of 0.61. The F1 score is 0.75.
 
+![NRO1](screenshot/NRO1.png)
+![NRO2](screenshot/NRO2.png)
+![NRO3](screenshot/NRO3.png)
+
 ### SMOTE Oversampling
 The balanced accuracy score for this model is 0.662. From the classification report, the precision for high risk is pretty low (0.01) with a sensitivity of 0.79. The F1 score is 0.02 for the high risk. The overall precision for the dataset is 0.99, with a sensitivity of 0.61. The F1 score is 0.81.
+
+![Smote1](screenshot/Smote1.png)
+![Smote2](screenshot/Smote2.png)
+![Smote3](screenshot/Smote3.png)
 
 ### Cluster Centroids Undersampling 
 The balanced accuracy score for this model is 0.662. From the classification report, the precision for high risk is pretty low (0.01) with a sensitivity of 0.63. The F1 score is 0.02 for the high risk. The overall precision for the dataset is 0.99, with a sensitivity of 0.69. The F1 score is 0.81.
 
+![under1](screenshot/under1.png)
+![under2](screenshot/under2.png)
+
+
 ### SMOTEENN Combination Sampling
 The balanced accuracy score for this model is 0.643. From the classification report, the precision for high risk is pretty low (0.01) with a sensitivity of 0.71. The F1 score is 0.02 for the high risk. The overall precision for the dataset is 0.99, with a sensitivity of 0.57. The F1 score is 0.72.
+
+![combine1](screenshot/combine1.png)
+![combine2](screenshot/combine2.png)
+
 
 ### Balanced Random Forest Classifier
 The balanced accuracy score for this model is 0.788. From the classification report, the precision for high risk is pretty low (0.03) with a sensitivity of 0.70. The F1 score is 0.06 for the high risk. The overall precision for the dataset is 0.99, with a sensitivity of 0.87. The F1 score is 0.93.
 
+![brfc1](screenshot/brfc1.png)
+![brfc2](screenshot/brfc2.png)
+![brfc3](screenshot/brfc3.png)
+
 
 ### Easy Ensemble AdaBoost Classifier
 The balanced accuracy score for this model is 0.932. From the classification report, the precision for high risk is pretty low (0.09) with a sensitivity of 0.92. The F1 score is 0.16 for the high risk. The overall precision for the dataset is 0.99, with a sensitivity of 0.94. The F1 score is 0.97.
+
+![easy1](screenshot/easy1.png)
+![easy2](screenshot/easy2.png)
+![easy3](screenshot/easy3.png)
 
 
 ## Summary
