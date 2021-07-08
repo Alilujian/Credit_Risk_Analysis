@@ -56,5 +56,6 @@ The balanced accuracy score for this model is 0.932. From the classification rep
 
 
 ## Summary
-From the above result, it's clear to see that all the models perform a weak precision in determining the high credit risk. So that I would not recommend the bank to use the models to predict credit risk.
+The "pre" column in the classification report tells us the precision of the prediction, while "rec" indicates the sensitivity of the dataset. "F1" score tells the percentage of correct positive prediction.
+From the above result, it's clear to see that all the models perform a weak precision in determining the high credit risk. The Easy Ensmbel AdaBoost Classifier did improve in the accuracy score and sensitivity, but the low precision shows there are still alot wrong prediction occurs. So that I would not recommend the bank to use the models to predict credit risk.
 
